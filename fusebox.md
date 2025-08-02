@@ -69,5 +69,6 @@ QW entusiastide poolt on loodud kalkulaator, mis aitab **Qilowatti raporti põhj
 - Kõigil CSV ridadel on hinnad olemas
 - Erisusi (nagu tegelik baseline või osaline täitmine) ei arvestata
 
+
 👉 Proovi kalkulaatorit:  
 **[https://tihend.energy/profit](https://tihend.energy/profit)**
