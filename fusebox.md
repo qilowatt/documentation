@@ -66,6 +66,7 @@ QW entusiastide poolt on loodud kalkulaator, mis aitab **Qilowatti raporti põhj
 
 - Enne käsku on baseline = 0
 - Käsku täidetakse 100% täpsusega
+- Kõigil CSV ridadel on hinnad olemas
 - Erisusi (nagu tegelik baseline või osaline täitmine) ei arvestata
 
 👉 Proovi kalkulaatorit:  
