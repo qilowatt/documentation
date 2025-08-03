@@ -25,8 +25,8 @@ Sagedusturul (mFRR) on kahte tüüpi reguleerimist. Qilowatti süsteemis vastava
     -   Arvesse läheb energia, mis liigub **akust välja**. Energia sihtkoht (enda tarbimine või võrku müük) ei ole oluline. Kõrge Nord Pool Spot (NPS) hinnaga on **võrku müük** sageli kasulikum, kuna teenid lisaks sagedusturu tulule ka NPS müügitulu.
 
 #### Erikäsud
--   **`frrup`:** Spetsiaalne `SELL` käsk Fuseboxilt. Selle käsu ajal peab sinu süsteem **piirama päikesepaneelide (PV) tootmist**, et tagada maksimaalne energiavoog akust. Qilowatti uuema tarkvaraga seadmed teevad seda automaatselt.
--   **`0W` käsk / `CANCEL`:** Varem tekitasid `0W` käsud kahjumit. Nüüd on Qilowatt need oma süsteemis defineerinud kui **tühistamise (`CANCEL`) käsu**. See tähendab, et aktiivne mFRR käsk lõppeb ja su süsteem naaseb eelmisesse olekusse (nt `Optimizer` või `Timer`).
+-   **`frrup`:** Spetsiaalne `SELL` käsk **ainult Fuseboxilt**. Selle käsu ajal peab sinu süsteem **piirama päikesepaneelide (PV) tootmist**, et tagada maksimaalne energiavoog akust. Qilowatti uuema tarkvaraga seadmed teevad seda automaatselt. Erinevalt tavalisest `SELL` käsust, mis võib tulla ka timerist.
+-   **`0W` käsk / `CANCEL`:** Varem tekitasid `0W` käsud kahjumit. Nüüd on Qilowatt need oma süsteemis defineerinud kui **tühistamise (`CANCEL`) käsu**. See tähendab, et aktiivne mFRR käsk lõppeb ja su süsteem naaseb eelmisesse olekusse (nt `Optimizer` või `Timer`). **Fuseboxi vaatenurgast** on `0W` käsud kasulikud, kuna klient peab energia oma raha eest ostma, aga Fusebox ei pea midagi maksma.
 
 ---
 
@@ -76,6 +76,7 @@ See on kõige olulisem ja keerulisem osa. Sinu teenistus ei põhine aku absoluut
 -   **`DOWN` käsu ajal piira tarbimist:** Kogu sinu kodune tarbimine tuleb sel ajal osta võrgust kalli NPS hinnaga. Lülita suured tarbijad välja.
 -   **`DOWN` käsk päikesega on jackpot:** `DOWN` käsk on eriti kasulik, kui päike paistab. Saad tasu selle eest, et laed omaenda päikeseenergiat akusse.
 -   **Aku SOC piirangud:** Määra Qilowatti veebis Fuseboxi seadetes oma akule mõistlikud miinimum- ja maksimumpiirid (nt min 15%, max 98%). See aitab vältida kahjumlikke käske tühja/täis aku korral. **NB!** Need seaded ei jõustu automaatselt! Saada e-mail aadressile `support@qilowatt.it` ja palu neil sinu seadistatud piirangud Fuseboxi süsteemi kanda.
+-   **Käskude prioriteetide järjekord:** Qilowatt süsteemis kehtib järgmine prioriteetide järjekord: **Fusebox > Manual > Timer/Optimizer > No Timer**. See tähendab, et mFRR käsud alati üle kirjutavad kõik muud seadistused.
 
 ---
 
