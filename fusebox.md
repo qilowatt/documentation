@@ -72,9 +72,8 @@ See on kõige olulisem ja keerulisem osa. Sinu teenistus ei põhine aku absoluut
 
 ## 2. Strateegiad ja Parimad Praktikad
 
--   **`UP` käsu ajal tarbi ise:** Kuna tasu arvestatakse akust väljuva energia pealt, on kasulik `UP` käsu ajal käivitada suuri tarbijaid (EV laadija, boiler, küte). Saad sagedusturult tasu omaenda energia tarbimise eest.
 -   **`DOWN` käsu ajal piira tarbimist:** Kogu sinu kodune tarbimine tuleb sel ajal osta võrgust kalli NPS hinnaga. Lülita suured tarbijad välja.
--   **`DOWN` käsk päikesega on jackpot:** `DOWN` käsk on eriti kasulik, kui päike paistab. Saad tasu selle eest, et laed omaenda päikeseenergiat akusse.
+-   **`DOWN` käsk päikesega on jackpot:** `DOWN` käsk on eriti kasulik, kui päike paistab ja enne seda oled PV võrku müünud. Saad tasu selle eest, et laed omaenda päikeseenergiat akusse.
 -   **Aku SOC piirangud:** Määra Qilowatti veebis Fuseboxi seadetes oma akule mõistlikud miinimum- ja maksimumpiirid (nt min 15%, max 98%). See aitab vältida kahjumlikke käske tühja/täis aku korral. **NB!** Need seaded ei jõustu automaatselt! Saada e-mail aadressile `support@qilowatt.it` ja palu neil sinu seadistatud piirangud Fuseboxi süsteemi kanda.
 -   **Käskude prioriteetide järjekord:** Qilowatt süsteemis kehtib järgmine prioriteetide järjekord: **Fusebox > Manual > Timer/Optimizer > No Timer**. See tähendab, et mFRR käsud alati üle kirjutavad kõik muud seadistused.
 
