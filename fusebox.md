@@ -105,6 +105,15 @@ QW entusiastide poolt on loodud kalkulaator, mis aitab **Qilowatti raporti põhj
 - Kõigil CSV ridadel on hinnad olemas
 - Erisusi (nagu tegelik baseline või osaline täitmine) ei arvestata
 
-
 👉 Proovi kalkulaatorit:  
 **[https://tihend.energy/profit](https://tihend.energy/profit)**
+
+
+## 4. Fusebox kastis Quality: xx%
+- 90-100   A
+- 80-90    B
+- 70-80    C
+- 60-70    D
+- 0-50     E
+
+Arvutatakse nullist tellimuse suunas % kuidas inveter reageerib. See on indikatiivne % vara reageerimisel. Kui vara quality on A, siis pole vaja midagi teha. Kui on kehvem siis tuleb vaadata ja aru saada milles on probleem. QW tegeleb jooksvalt varadega mille kvaliteet on kehvem, et saavutada parem kvaliteet. Kui ise ei saa aru miks vara satub mingisse klassi, siis küsi teistelt kasutajatelt Discordis. 
