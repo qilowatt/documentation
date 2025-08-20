@@ -116,4 +116,4 @@ QW entusiastide poolt on loodud kalkulaator, mis aitab **Qilowatti raporti põhj
 - 60-70    D
 - 0-50     E
 
-Arvutatakse nullist tellimuse suunas % kuidas inveter reageerib. See on indikatiivne % vara reageerimisel. Kui vara quality on A, siis pole vaja midagi teha. Kui on kehvem siis tuleb vaadata ja aru saada milles on probleem. QW tegeleb jooksvalt varadega mille kvaliteet on kehvem, et saavutada parem kvaliteet. Kui ise ei saa aru miks vara satub mingisse klassi, siis küsi teistelt kasutatelt Discordis. 
+Arvutatakse nullist tellimuse suunas % kuidas inveter reageerib. See on indikatiivne % vara reageerimisel. Kui vara quality on A, siis pole vaja midagi teha. Kui on kehvem siis tuleb vaadata ja aru saada milles on probleem. QW tegeleb jooksvalt varadega mille kvaliteet on kehvem, et saavutada parem kvaliteet. Kui ise ei saa aru miks vara satub mingisse klassi, siis küsi teistelt kasutajatelt Discordis. 
